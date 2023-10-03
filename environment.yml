@@ -1,0 +1,11 @@
+# conda env create --file environment.yml
+name: logistic_regression_diagnostic_breast_cancer_wisconsin
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.10.12
+  - pip:
+    
